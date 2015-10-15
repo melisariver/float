@@ -1,0 +1,30 @@
+.span{
+	float:right;
+	width: 25%;
+	height: 100px;
+}
+.yellow{
+	background-color: yellow;
+}
+.blue{
+	background-color: blue;
+	float:left;
+	}
+.pink{
+	background-color: pink;
+}
+.fondo{
+	width: 50%;
+	height:intrinsic;
+	border: 2px solid black;
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table; 
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+  *zoom:1;
+}
